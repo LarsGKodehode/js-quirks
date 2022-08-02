@@ -20,7 +20,7 @@ class MyClass {
   };
 
   getAllMethods() {
-    return {public: this.publicMethod, private: this.#privateMethod}
+    return {public: this.publicMethod(), private: this.#privateMethod()}
   };
   
 
