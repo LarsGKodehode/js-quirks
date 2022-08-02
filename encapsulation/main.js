@@ -1,4 +1,4 @@
-import { MyClass } from "./encapsulation/encapuslation-class.js";
+import { MyClass } from "./encapuslation-class.js";
 
 const newClass = new MyClass;
 
