@@ -8,11 +8,11 @@ class MyClass {
 
   // Public
   // members
-  publicMember = `This is a public member of ${this.name}`;
+  publicMember = `This is a public member of MyClass`;
 
   // methods
   publicMethod() {
-    return `This is a public method of ${this.name}`;
+    return `This is a public method of MyClass`;
   };
 
   getAllMembers() {
@@ -26,11 +26,11 @@ class MyClass {
 
   // Private
   // members
-  #privateMember = `This is a private member of ${this.name}`
+  #privateMember = `This is a private member of MyClass`
 
   // methods
   #privateMethod() {
-    return `This is a private method of ${this.name}`;
+    return `This is a private method of MyClass`;
   };
 
 };
